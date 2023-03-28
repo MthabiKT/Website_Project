@@ -3,11 +3,7 @@ import { Link } from 'react-router-dom';
 import '../CSS/Navbar.css';
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  function toggleMenu() {
-    setIsOpen(!isOpen);
-  }
+  const [isOpen] = useState(false);
 
   return (
     <nav className="navbar">
