@@ -1,0 +1,34 @@
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:70px;
+    background-color: #f1f5fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+   
+  .copy-right p{
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+
+  footer a i.fab.fa-facebook-f {
+    color: #4267B2;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  footer a i.fab.fa-twitter{
+    color: #4267B2;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+    
