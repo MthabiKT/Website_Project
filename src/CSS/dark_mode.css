@@ -1,0 +1,7 @@
+/* src/dark-mode.css */
+
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+  }
+  
