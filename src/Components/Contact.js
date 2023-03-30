@@ -48,12 +48,14 @@ function Contact() {
       setMessage('');
     }
   };
-  const mapHtml = '<div style="overflow:hidden;resize:none;max-width:100%;width:300px;height:300px;"><div id="embed-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/view?zoom=17¢er=-1.2986,36.8397&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googl-ehtml" href="https://www.bootstrapskins.com/themes" id="get-data-for-embed-map">premium bootstrap themes</a><style>#embed-map-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>'
-  const sanitizedMapHtml = DOMPurify.sanitize(mapHtml)
 
-  return (
+
+  return (<>
+    <h2>Keep in Touch</h2>
+    <div className='contact-container'>
+  
     <div className="contact-form-container">
-      <h2 className="contact-form-title">Contact Us</h2>
+      
       <form onSubmit={handleSubmit} className="contact-form">
         <label htmlFor="name">Name:</label>
         <input
@@ -89,10 +91,24 @@ function Contact() {
 
         <button type="submit" className="contact-form-submit">Submit</button>
       </form>
-      <div className='google-map-container' dangerouslySetInnerHTML={{ __html: sanitizedMapHtml }} />
     </div>
-      
-  );
+    <div className="contact-map-container">
+    <div className="mapouter">
+      <div className="gmap_canvas">
+        <iframe className='map'
+          width="450px"
+          height="450"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=athi river&t=&z=10&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"></iframe>
+      </div>
+    </div>
+  </div>
+  </div>
+  </>
+);
 }
 
 export default Contact;
