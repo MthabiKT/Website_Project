@@ -96,7 +96,7 @@ function Contact() {
     <div className="mapouter">
       <div className="gmap_canvas">
         <iframe className='map'
-          width="450px"
+          width="450"
           height="450"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=athi river&t=&z=10&ie=UTF8&iwloc=&output=embed"
