@@ -63,7 +63,7 @@
   font-size: 16px;
   font-weight: bold;
   color: #fff;
-  background-color: #333;
+  background-color: #0B0B45;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -71,7 +71,7 @@
 }
 
 .contact-form-submit:hover {
-  background-color: #444;
+  background-color: #0069d9;
 }
 
 .contact-map-container {
