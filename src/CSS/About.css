@@ -32,7 +32,9 @@
   .about-text {
     flex-basis: 50%;
     color: black;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    margin-left:  10px;
+    margin-top: 0px;
   }
   
   .about-image {
@@ -54,9 +56,10 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    color: #333;
+    color: white;
     /* background-color: #f5f5dc; */
     margin-bottom: 20px;
+    margin-top: 10px;
   }
     
    

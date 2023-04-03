@@ -6,6 +6,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import About from './Components/About'
 import Project from './Components/Project'
+import SkillsBar from './Components/Skills'
 import './App.css';
 function App() {
 return (
@@ -17,6 +18,7 @@ return (
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/projects" element={<Project/>} />
+          <Route exact path="/skills" element={<SkillsBar />} />
         </Routes>
         <Footer />
       </div>
