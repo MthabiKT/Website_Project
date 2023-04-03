@@ -1,4 +1,5 @@
 import React from "react";
+import "./Projects.css";
 
 function Project() {
   return (
@@ -11,7 +12,6 @@ function Project() {
               <div className="card-body">
                 <h5 className="card-title">👩‍💻 100 Days of Coding tracker </h5>
                 <p className="card-text">
-                  {" "}
                   Track your progress. Log daily progress, metrics, and
                   milestones to see how far you have progressed over the 100
                   days.
@@ -28,7 +28,6 @@ function Project() {
               <div className="card-body">
                 <h5 className="card-title">💃 Coachella website</h5>
                 <p className="card-text">
-                  {" "}
                   The Coachella Valley Music and Arts Festival is an annual
                   music and arts festival held at the Empire Polo Club in Indio,
                   California, in the Coachella Valley in the Colorado Desert.
