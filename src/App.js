@@ -17,6 +17,7 @@ return (
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/projects" element={<Project/>} />
+          <Route exact path="/skills" element={<Skills />} />
         </Routes>
         <Footer />
       </div>
