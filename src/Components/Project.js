@@ -9,7 +9,11 @@ function Project() {
         <div className="row">
           <div className="col-sm-6 mb-3 mb-sm-0">
             <div className="card shadow">
-              <img src="" class="card-img-top" alt="..."></img>
+              <img
+                src="src/images/3.jpg"
+                class="card-img-top"
+                alt="tracker"
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">👩‍💻 100 Days of Coding tracker </h5>
                 <p className="card-text">
@@ -25,7 +29,11 @@ function Project() {
           </div>
           <div className="col-sm-6">
             <div className="card shadow">
-              <img src="..." class="card-img-top" alt="..."></img>
+              <img
+                src="src/images/2.jpg"
+                class="card-img-top"
+                alt="coachella"
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">💃 Coachella website</h5>
                 <p className="card-text">
