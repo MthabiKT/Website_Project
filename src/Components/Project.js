@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/Projects.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Project() {
   return (
@@ -8,8 +8,12 @@ function Project() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-6 mb-3 mb-sm-0">
-            <div className="card">
-              <img src="..." class="card-img-top" alt="..."></img>
+            <div className="card shadow">
+              <img
+                src="src/images/3.jpg"
+                class="card-img-top image fluid"
+                alt="tracker"
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">👩‍💻 100 Days of Coding tracker </h5>
                 <p className="card-text">
@@ -24,8 +28,12 @@ function Project() {
             </div>
           </div>
           <div className="col-sm-6">
-            <div className="card ">
-              <img src="..." class="card-img-top" alt="..."></img>
+            <div className="card shadow">
+              <img
+                src="src/images/2.jpg"
+                class="card-img-top image-fluid"
+                alt="coachella"
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">💃 Coachella website</h5>
                 <p className="card-text">
