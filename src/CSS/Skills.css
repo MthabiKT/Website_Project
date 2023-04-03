@@ -8,31 +8,31 @@
 }
 
 #root {
-    height: 100vh;
+    height: 100vh -80px;
     display: flex;
-    background-color: rgb(3, 4, 65);
+    background-color:  #fff; 
     align-items: center;
     justify-content: center;
 }
-
 .container{
     position: relative;
-    max-width: 500px;
+    max-width: 800px;
     width: 100%;
     background: #fff;
-    margin: 0 15px;
+    margin: auto;
     padding: 10px 20px;
     border-radius: 7px;
 }
 
 .title-text {
     text-align: center;
-    background-color: #f5f5dc;
+    background-color: rgb(3, 4, 65);
     color: #fff;
     font-weight: 400;
     border-radius: 50px;
     margin-top: 15px;
     margin-bottom: 30px;
+    margin: auto;
 }
 
 .container .skill-box {
