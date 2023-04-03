@@ -4,6 +4,7 @@ import "./Projects.css";
 function Project() {
   return (
     <div className="project-container">
+      <h1> Projects</h1>
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-6 mb-3 mb-sm-0">
