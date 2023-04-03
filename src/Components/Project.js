@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/Projects.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Project() {
   return (
