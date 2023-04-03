@@ -8,8 +8,8 @@ function Project() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-6 mb-3 mb-sm-0">
-            <div className="card">
-              <img src="..." class="card-img-top" alt="..."></img>
+            <div className="card shadow">
+              <img src="" class="card-img-top" alt="..."></img>
               <div className="card-body">
                 <h5 className="card-title">👩‍💻 100 Days of Coding tracker </h5>
                 <p className="card-text">
@@ -17,14 +17,14 @@ function Project() {
                   milestones to see how far you have progressed over the 100
                   days.
                 </p>
-                <a href="#" className="btn btn-primary ">
+                <a href="#" className="btn shadow ">
                   view
                 </a>
               </div>
             </div>
           </div>
           <div className="col-sm-6">
-            <div className="card ">
+            <div className="card shadow">
               <img src="..." class="card-img-top" alt="..."></img>
               <div className="card-body">
                 <h5 className="card-title">💃 Coachella website</h5>
@@ -33,7 +33,7 @@ function Project() {
                   music and arts festival held at the Empire Polo Club in Indio,
                   California, in the Coachella Valley in the Colorado Desert.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn shadow">
                   View
                 </a>
               </div>
