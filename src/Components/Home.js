@@ -5,7 +5,7 @@ import profilePic from '../images/img.jpg';
 
 function Home() {
   return (<>
-    <h1 style={{marginTop:20}}>Welcome to my Portfolio</h1>
+    <h1 style={{marginTop:20}}>Welcome to our Portfolio</h1>
     <div className="home-container">
       <div className="home-content">
         <div className="home-text">
