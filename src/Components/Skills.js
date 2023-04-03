@@ -5,7 +5,7 @@ function SkillsBar () {
    return (
        <div className="container">
            <h1 className="title-text">My Skills</h1>
-
+            <div className="skill-set">
            <div className="skill-box">
                <span className="title">HTML</span>
                <div className="skill-bar">
@@ -53,6 +53,7 @@ function SkillsBar () {
                        <span className="tooltip">75%</span>
                    </span>
                </div>
+           </div>
            </div>
        </div>
    )

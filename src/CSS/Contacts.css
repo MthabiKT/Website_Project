@@ -98,11 +98,11 @@
   position: relative;
 }
 
-h2 {
+h1 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  color: #333;
+  color: white;
 /*  
   background-color: #f5f5dc; */
 }

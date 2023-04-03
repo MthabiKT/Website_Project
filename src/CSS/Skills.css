@@ -16,7 +16,7 @@
 }
 .container{
     position: relative;
-    max-width: 800px;
+    max-width: 500px;
     width: 100%;
     background: #fff;
     margin: auto;
@@ -28,7 +28,7 @@
     text-align: center;
     background-color: rgb(3, 4, 65);
     color: #fff;
-    font-weight: 400;
+    font-weight: bold;
     border-radius: 50px;
     margin-top: 15px;
     margin-bottom: 30px;
@@ -37,7 +37,7 @@
 
 .container .skill-box {
     width: 100%;
-    margin: 25px 0;
+    margin: 25px 0;  
 }
 
 .skill-box .title{
