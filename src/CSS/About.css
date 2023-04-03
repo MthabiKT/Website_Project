@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: calc(100vh - 80px); /* 80px is the height of the navbar */
-    background-color: #f5f5dc;
+    /* background-color: #f5f5dc; */
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     color: #333;
@@ -55,7 +55,7 @@
     font-weight: bold;
     text-align: center;
     color: #333;
-    background-color: #f5f5dc;
+    /* background-color: #f5f5dc; */
     margin-bottom: 20px;
   }
     
