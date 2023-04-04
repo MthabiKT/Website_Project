@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/Projects.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Project() {
   return (
@@ -22,7 +22,7 @@ function Project() {
                   milestones to see how far you have progressed over the 100
                   days.
                 </p>
-                <a href="#" className="btn shadow ">
+                <a href="#" className="btn mb-4 shadow ">
                   view
                 </a>
               </div>
@@ -42,7 +42,7 @@ function Project() {
                   music and arts festival held at the Empire Polo Club in Indio,
                   California, in the Coachella Valley in the Colorado Desert.
                 </p>
-                <a href="#" className="btn shadow">
+                <a href="#" className="btn mb-4 shadow">
                   View
                 </a>
               </div>

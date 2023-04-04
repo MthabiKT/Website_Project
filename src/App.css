@@ -1,9 +1,11 @@
-
-
-/* body div {
+body {
+  font-family: "Poppins", sans-serif;
+}
+body div {
   background-color: #f5f5dc;
-  color: white
-} */
+  color: white;
+}
+
 .App {
   text-align: center;
 }
