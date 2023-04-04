@@ -24,8 +24,9 @@ function Project() {
                   milestones to see how far you have progressed over the 100
                   days. {/* description of first project */}
                 </p>
-                <a href="#" className="btn shadow ">
+                <a href="https://github.com/muthoninduhiu/CFG_Introduction_To_PythonApps" className="btn shadow " target="_blank"  rel="noreferrer">
                   view {/* button to view first project */}
+
                 </a>
               </div>
             </div>
@@ -44,7 +45,7 @@ function Project() {
                   music and arts festival held at the Empire Polo Club in Indio,
                   California, in the Coachella Valley in the Colorado Desert. {/* description of second project */}
                 </p>
-                <a href="#" className="btn shadow">
+                <a href="https://github.com/muthoninduhiu/Website_Project" className="btn shadow" target="_blank"  rel="noreferrer">
                   View {/* button to view second project */}
                 </a>
               </div>
