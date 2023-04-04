@@ -1,7 +1,8 @@
 import React from 'react';
 import '../CSS/Home.css';
 import ProjectsButton from './Button';
-import profilePic from '../images/2.jpg';
+import profilePic from '../images/img.jpg';
+
 function Home() {
   return (<>
     <h1 style={{marginTop:20, marginBottom:20,color:'white',fontSize:30}}>Welcome to our Portfolio</h1>
@@ -15,7 +16,6 @@ function Home() {
           <img src={profilePic} alt="Profile" style={{width:'60%', height: 'auto'}}/>
         </div>
       </div>
-    </div>
     </>
   );
 }
