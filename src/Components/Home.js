@@ -4,7 +4,8 @@ import ProjectsButton from './Button';
 import profilePic from '../images/img.jpg';
 
 function Home() {
-  return (<>
+  return (
+  <>
     <h1 style={{marginTop:20, marginBottom:20,color:'white',fontSize:30}}>Welcome to our Portfolio</h1>
     <div className="home-container">
       <div className="home-content">
@@ -15,6 +16,7 @@ function Home() {
         <div className="home-image">
           <img src={profilePic} alt="Profile" style={{width:'60%', height: 'auto'}}/>
         </div>
+      </div>
       </div>
     </>
   );

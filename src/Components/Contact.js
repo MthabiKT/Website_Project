@@ -57,7 +57,7 @@ const ContactForm = () => {
   return (
     // create a form for users to submit their name, email, and message
     <div className="container">
-      <h2 className="text-center mb-5">Keep in Touch</h2>
+      <h2 className="text-center mb-5 mt-4">Keep in Touch</h2>
       <div className="row">
         <div className="col-lg-6 mb-4">
           <form onSubmit={handleSubmit}>
