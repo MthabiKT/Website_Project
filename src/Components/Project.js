@@ -16,6 +16,7 @@ function Project() {
                 src={image1} // image for first project
                 class="card-img-top" // class for top of card
                 alt="tracker" // alternative text for image
+                style={{ maxWidth: '100%', maxHeight: '200px', objectFit: 'cover' }}
               ></img>
               <div className="card-body">
                 <h5 className="card-title">👩‍💻 100 Days of Coding tracker </h5> {/* title of first project */}
@@ -25,7 +26,7 @@ function Project() {
                   days. {/* description of first project */}
                 </p>
                 <a href="https://github.com/muthoninduhiu/CFG_Introduction_To_PythonApps" className="btn shadow " target="_blank"  rel="noreferrer">
-                  view {/* button to view first project */}
+                  View {/* button to view first project */}
 
                 </a>
               </div>
@@ -37,8 +38,9 @@ function Project() {
                 src={image2} // image for second project
                 class="card-img-top" // class for top of card
                 alt="coachella" // alternative text for image
+                style={{ maxWidth: '100%', maxHeight: '200px', objectFit: 'cover' }}
               ></img>
-              <div className="card-body">
+              <div className="card-body" >
                 <h5 className="card-title">💃 Coachella website</h5> {/* title of second project */}
                 <p className="card-text">
                   The Coachella Valley Music and Arts Festival is an annual
