@@ -1,10 +1,9 @@
 import React from "react";
 import '../CSS/Skills.css';
-
 function SkillsBar () {
    return (
-       <div className="container">
-           <h1 className="title-text">My Skills</h1>
+       <div className="skill-container">
+           <h1 className="title-text">Skills</h1>
             <div className="skill-set">
            <div className="skill-box">
                <span className="title">HTML</span>
