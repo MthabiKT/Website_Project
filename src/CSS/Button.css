@@ -1,14 +1,17 @@
 .projects-button {
-  background-color: #a1ccc5;
-  color: #fff;
-  border: none;
-  border-radius: 22px;
-  padding: 13px 35px;
-  font-size: 16px;
-  cursor: pointer;
-}
+    background-color: #0B0B45;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
-.projects-button:hover {
-  background-color: #dfedeb;
-  color: black;
-}
+  }
+  
+  .projects-button:hover {
+    background-color: #0069d9;
+  }
+  
