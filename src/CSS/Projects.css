@@ -18,3 +18,11 @@
 h1{
     color: black;
 }  
+.btn{
+    background-color: #ffe1ac;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    background-color: hsl(180, 30%, 89%);
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../CSS/Home.css';
 import ProjectsButton from './Button';
-import profilePic from '../images/img.jpg';
+import profilePic from '../images/2.jpg';
 
 function Home() {
   return (
