@@ -1,7 +1,7 @@
-import React from 'react';
-import '../CSS/Home.css';
-import ProjectsButton from './Button';
-import profilePic from '../images/img.jpg';
+import React from "react";
+import "../CSS/Home.css";
+import ProjectsButton from "./Button";
+import profilePic from "../images/img.jpg";
 
 function Home() {
   return (<>
@@ -18,7 +18,6 @@ function Home() {
           <img src={profilePic} alt="Profile" style={{width:'70%', height: 'auto'}}/>
         </div>
       </div>
-    </div>
     </>
   );
 }
