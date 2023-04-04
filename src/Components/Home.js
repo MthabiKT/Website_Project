@@ -1,5 +1,5 @@
 import React from 'react';
-import '../CSS/Home.css';
+// import '../CSS/Home.css';
 import ProjectsButton from './Button';
 import profilePic from '../images/2.jpg';
 

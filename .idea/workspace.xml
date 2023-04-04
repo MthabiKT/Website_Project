@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb7af934-1420-40c6-bf51-4495b95dc9c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CSS/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/About.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSS/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSS/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/Projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home.js" afterDir="false" />
-    </list>
+    <list default="true" id="fb7af934-1420-40c6-bf51-4495b95dc9c6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
