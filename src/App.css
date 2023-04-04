@@ -1,20 +1,5 @@
 @import url('https://fonts.google.com/specimen/Sofia');
  
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Sofia', cursive;
-}
-/* body{
-  background-color: black;
-  color: white;
-} */
-
-/* body div {
-  background-color: #f5f5dc;
-  color: white
-} */
 .App {
   text-align: center;
 }
