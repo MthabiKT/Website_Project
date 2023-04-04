@@ -1,7 +1,8 @@
 import React from "react";
 import "../CSS/Projects.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import image1 from '../images/about.jpg'
+import image2 from '../images/img.jpg'
 function Project() {
   return (
     <div className="project-container">
@@ -11,7 +12,7 @@ function Project() {
           <div className="col-sm-6 mb-3 mb-sm-0">
             <div className="card shadow">
               <img
-                src="src/images/3.jpg"
+                src={image1}
                 class="card-img-top"
                 alt="tracker"
               ></img>
@@ -31,7 +32,7 @@ function Project() {
           <div className="col-sm-6">
             <div className="card shadow">
               <img
-                src="src/images/2.jpg"
+                src={image2}
                 class="card-img-top"
                 alt="coachella"
               ></img>
