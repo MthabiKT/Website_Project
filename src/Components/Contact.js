@@ -3,48 +3,59 @@ import DOMPurify from 'dompurify';
 import Social from './Social';
 
 const ContactForm = () => {
+  // Define state variables for name, email, message, and error messages
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [messageError, setMessageError] = useState('');
+  // Define a function to handle form submission
+  const handleSubmit = (event) => {
+    event.preventDefault(); //prevents default behaviour of form submission
+    // reset error message
+    setNameError('');
+    setEmailError('');
+    setMessageError('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+    let isValid = true;
 
-    if (!name) {
+    // Check if name field is empty
+    if (name.trim() === '') {
       setNameError('Please enter your name');
-      return;
-    } else {
-      setNameError('');
+      isValid = false;
     }
 
-    if (!email) {
-      setEmailError('Please enter your email');
-      return;
-    } else {
-      setEmailError('');
+    // Check if email field is empty or contains an invalid email address
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (email.trim() === '') {
+      setEmailError('Please enter your email');//update email error message
+      isValid = false;
+    } else if (!emailRegex.test(email.trim())) {
+      setEmailError('Please enter a valid email address');  // update error message
+      isValid = false;
     }
 
-    if (!message) {
+    // Check if message field is empty
+    if (message.trim() === '') {
       setMessageError('Please enter a message');
-      return;
-    } else {
-      setMessageError('');
+      isValid = false;
     }
 
-    // Submit the form
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Message:', message);
-
-    setName('');
-    setEmail('');
-    setMessage('');
+    if (isValid) {
+      console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+      //save results
+      alert("Saved successfully!");
+      setName('');
+      setEmail('');
+      setMessage('');
+    }
   };
 
+
+
   return (
+    // create a form for users to submit their name, email, and message
     <div className="container">
       <h2 className="text-center mb-5">Keep in Touch</h2>
       <div className="row">
@@ -57,6 +68,7 @@ const ContactForm = () => {
                 id="name"
                 name="name"
                 value={name}
+                // validation for the name, email, and message fields, and will display an error message if any of these fields are invalid
                 onChange={(e) => setName(e.target.value)}
                 className={`form-control ${nameError ? 'is-invalid' : ''}`}
               />
@@ -87,10 +99,11 @@ const ContactForm = () => {
               ></textarea>
               {messageError && <div className="invalid-feedback">{DOMPurify.sanitize(messageError)}</div>}
             </div>
-
+            {/* submit button that will trigger a handleSubmit function when clicked */}
             <button type="submit" className="btn btn-primary mt-3">Submit</button>
           </form>
         </div>
+        {/* add a Google Maps iframe displaying the location of Athi River */}
         <div className="col-lg-6">
           <div className="embed-responsive embed-responsive-1by1">
             <iframe
@@ -103,6 +116,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
+      {/* add Social component with the social media icons */}
       <Social/>
     </div>
   );
