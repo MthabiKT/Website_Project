@@ -74,7 +74,7 @@ const ContactForm = () => {
               />
               {nameError && <div className="invalid-feedback">{DOMPurify.sanitize(nameError)}</div>}
             </div>
-
+            {/* web page gives error if input isnt email */}
             <div className="form-group">
               <label htmlFor="email">Email:</label>
               <input

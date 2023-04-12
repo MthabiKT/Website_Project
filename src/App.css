@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-@import url('https://fonts.google.com/specimen/Sofia');
- 
-||||||| 0e6085d
-body {
-  font-family: "Poppins", sans-serif;
-}
-body div {
-  background-color: #f5f5dc;
-  color: white;
-}
-
-=======
 @import url("https://fonts.google.com/specimen/Sofia");
 
 * {
@@ -19,15 +6,7 @@ body div {
   box-sizing: border-box;
   font-family: "Sofia", cursive;
 }
-/* body{
-  background-color: black;
-  color: white;
-} */
-/* body div {
-  background-color: #f5f5dc;
-  color: white
-} */
->>>>>>> 5233b2da23d6ce4242ba8dd7ba420f3c79797e61
+
 .App {
   text-align: center;
 }

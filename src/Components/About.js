@@ -1,24 +1,31 @@
-import React from 'react';
-import '../CSS/About.css';
-import profilePic from '../images/3.jpg';
+import React from "react";
+// import "../CSS/Home.css";
+import Images from "../images/3.jpg";
 
-function About() {
-  return (<>
-  <div className='container'>
-    <h1 style={{marginTop:20}}>About Us</h1>
-    <div className="about-container">
-      <div className="about-content">
-        <div className="about-text">
-          <p>We are a team of women who are passionate about technology and innovation. We believe that everyone should have the opportunity to learn and succeed in the tech industry, regardless of their gender, race, or background.</p>
+function Home() {
+  return (
+    <div className="home-container">
+      <section>
+        <div class="container">
+          <div class="row mt-5 jalign-self-center">
+            <div class="col-8 ">
+              <h1>About Us</h1>
+              <p className="m-4 py-5">
+              We are a team of women who are passionate about technology and innovation. 
+              We believe that everyone should have the opportunity to learn and succeed in the tech industry,
+              regardless of their gender, race, or background.
+              We believe that a more diverse and inclusive tech industry will benefit everyone, 
+              leading to more innovative solutions, better products, and stronger communities.
+              </p>
+            </div>
+            <div class="col-4">
+              <img src={Images} class="card-img-top" alt="..."></img>
+            </div>
+          </div>
         </div>
-        <div className="about-image">
-          <img src={profilePic} alt="Profile" style={{width:'70%', height: 'auto'}}/>
-        </div>
-      </div>
+      </section>
     </div>
-    </div>
-    </>
   );
 }
 
-export default About;
+export default Home;
