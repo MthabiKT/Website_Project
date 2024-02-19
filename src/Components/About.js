@@ -9,12 +9,12 @@ function Home() {
         <div class="container">
           <div class="row mt-5 jalign-self-center">
             <div class="col-8 ">
-              <h1>About Us</h1>
+              <h1>About Me</h1>
               <p className="m-4 py-5">
-              We are a team of women who are passionate about technology and innovation. 
-              We believe that everyone should have the opportunity to learn and succeed in the tech industry,
+              I am passionate about technology and innovation.
+              I believe that everyone should have the opportunity to learn and succeed in the tech industry,
               regardless of their gender, race, or background.
-              We believe that a more diverse and inclusive tech industry will benefit everyone, 
+              I believe that a more diverse and inclusive tech industry will benefit everyone,
               leading to more innovative solutions, better products, and stronger communities.
               </p>
             </div>

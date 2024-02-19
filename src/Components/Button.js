@@ -4,7 +4,7 @@ import '../CSS/Button.css'
 function ProjectsButton() {
   return (
     <Link to="/about">
-      <button className='projects-button'>About Us</button>
+      <button className='projects-button'>About Me</button>
     </Link>
   );
 }
